@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
-import AuctionBattle from './AuctionBattle/AuctionBattle'
+import Layout from '../hoc/Layout/Layout';
+import Home from './Home/Home';
+import AuctionBattle from './AuctionBattle/AuctionBattle';
 
 import './App.css';
 
@@ -8,9 +10,12 @@ class App extends Component {
 
   render() {
 
-    return (
+    return ( // <AuctionBattle />
       <div className="App">
-        <AuctionBattle />
+        <Layout>
+          <Home />
+          
+        </Layout>
       </div>
     );
   }

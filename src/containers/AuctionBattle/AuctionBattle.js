@@ -29,7 +29,6 @@ class AuctionBattle extends Component {
         <div id="aution-battle"></div>
         <h1>This is a test :D</h1>
       </React.Fragment>
-      
     );
   }
 }
