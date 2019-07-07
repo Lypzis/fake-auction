@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Phaser from 'phaser';
 
-import AuctionBattleScene from '../../scenes/AuctionBattleScene';
+import AuctionBattleScene from '../../../scenes/AuctionBattleScene';
 
 class AuctionBattle extends Component {
 

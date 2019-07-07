@@ -1,3 +1,75 @@
-.Home {
-    
+.intro-box {
+    position: relative;
+}
+
+.intro-box__message {
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.intro-box__title {
+    position: relative;
+    font-size: 5.8rem;
+    font-weight: 300;
+}
+
+.intro-box__subtitle {
+    position: relative;
+    font-size: 2.4rem;
+    letter-spacing: 1.4rem;
+    font-weight: 600;
+}
+
+
+/* a rathe complex button style */
+.intro-box__button {
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.7rem;
+    background: #fff;
+    border: solid #fff 1rem;
+    border-radius: 1.5rem;
+    padding: 1rem 3rem;
+    color: #000;
+    text-transform: uppercase;
+
+    z-index: 2;
+    top: 0;
+    box-shadow: none;
+    transition: all .2s;
+}
+
+.intro-box__button::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    border-radius: 1.5rem;
+    padding: 1rem 3rem;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    background: #fff;
+    border: solid #fff 1rem;
+    transition: all .4s;
+}
+
+.intro-box__button:hover::before, 
+.intro-box__button:focus::before{
+    transform: scale(2, 3);
+    opacity: 0;
+}
+
+.intro-box__button:hover, 
+.intro-box__button:focus {
+    box-shadow: 0 .7rem #000;
+    top: -.7rem;
+}
+
+.intro-box__button:active {
+    top: 0;
+    box-shadow: none;
 }
