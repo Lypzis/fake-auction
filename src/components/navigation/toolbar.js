@@ -8,7 +8,7 @@ const toolbar = props => (
     <React.Fragment>
         <h1 className="app-title">
             <figure className="logo-container">
-                <Link to="/">
+                <Link to="/fake-auctions">
                     <svg className="logo-icon">
                         <use xlinkHref={`${sprite}#icon-hammer2`}></use>
                     </svg>
@@ -20,7 +20,7 @@ const toolbar = props => (
             <ol className="navigation__list">
                 <li className="navigation__list-item">
 
-                    <Link to="/auctions" className="navigation__link">
+                    <Link to="/fake-auctions/auctions" className="navigation__link">
                         <svg className="nav-icon">
                             <use xlinkHref={`${sprite}#icon-hammer2`}></use>
                         </svg>

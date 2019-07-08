@@ -11,8 +11,8 @@ class Auction extends Component {
         return (
             <React.Fragment>
                 <Switch>
-                    <Route path="/auctions/:id" component={AuctionBattle} />
-                    <AuctionItem link="/auctions/:id" />
+                    <Route path="/fake-auctions/auctions/:id" component={AuctionBattle} />
+                    <AuctionItem link="/fake-auctions/auctions/:id" />
                 </Switch>
             </React.Fragment>
         );
