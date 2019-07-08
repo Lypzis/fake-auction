@@ -29,7 +29,7 @@ const toolbar = props => (
                 </li>
                 <li className="navigation__list-item">
 
-                    <a href="/" className="navigation__link">
+                    <a href="/fake-auctions" className="navigation__link">
                         <svg className="nav-icon">
                             <use xlinkHref={`${sprite}#icon-cart`}></use>
                         </svg>
@@ -38,7 +38,7 @@ const toolbar = props => (
                 </li>
                 <li className="navigation__list-item">
 
-                    <a href="/" className="navigation__link">
+                    <a href="/fake-auctions" className="navigation__link">
                         <svg className="nav-icon">
                             <use xlinkHref={`${sprite}#icon-envelop`}></use>
                         </svg>
@@ -47,7 +47,7 @@ const toolbar = props => (
                 </li>
                 <li className="navigation__list-item">
 
-                    <a href="/" className="navigation__link">
+                    <a href="/fake-auctions" className="navigation__link">
                         <svg className="nav-icon">
                             <use xlinkHref={`${sprite}#icon-user`}></use>
                         </svg>
