@@ -11,7 +11,12 @@ export default class AuctionBattleScene extends Scene {
     }
 
     create = () => {
-        this.add.image(400, 300, 'sky');
+        const parent = document.getElementById('aution-battle');
+        const width = parent.parentElement.clientWidth;
+        const height = parent.parentElement.clientHeight;
+
+        // this will make the image fill the background;
+        const background = this.add.image(0, 0, 'sky').setOrigin(0).setDisplaySize(width, height);
 
         var particles = this.add.particles('red');
 
@@ -29,8 +34,5 @@ export default class AuctionBattleScene extends Scene {
 
         emitter.startFollow(logo);
     }
+
 }
-
-
-
-

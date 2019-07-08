@@ -9,15 +9,22 @@ class AuctionBattle extends Component {
     const gameConfig = {
       parent: "aution-battle",
       type: Phaser.AUTO,
-      width: 800,
-      height: 600,
+      
+      scale: {
+        width: '100%',
+        height: '86vh',
+        scale: 'SHOW_ALL',
+        orientation: 'LANDSCAPE'  
+        //mode: Phaser.Scale.RESIZE, // https://rexrainbow.github.io/phaser3-rex-notes/docs/site/scalemanager/
+        //autoCenter: Phaser.Scale.CENTER_BOTH
+      },
       physics: {
         default: 'arcade',
         arcade: {
           gravity: { y: 200 }
         }
       },
-      scene: [ AuctionBattleScene ]
+      scene: [AuctionBattleScene]
     }
 
     new Phaser.Game(gameConfig);
@@ -27,7 +34,7 @@ class AuctionBattle extends Component {
     return (
       <React.Fragment>
         <div id="aution-battle"></div>
-        <h1>This is a test :D</h1>
+        {/*<h1>This is a test :D</h1>*/}
       </React.Fragment>
     );
   }

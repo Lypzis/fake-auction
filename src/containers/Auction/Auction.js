@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
 
-//import AuctionBattle from './AuctionBattle/AuctionBattle';
+import AuctionBattle from './AuctionBattle/AuctionBattle';
 import AuctionItem from '../../components/UI/AuctionItem/auctionItem';
 
 class Auction extends Component {
@@ -9,9 +10,11 @@ class Auction extends Component {
         // <AuctionBattle />
         return (
             <React.Fragment>
-                <AuctionItem />
+                <Switch>
+                    <Route path="/auctions/:id" component={AuctionBattle} />
+                    <AuctionItem link="/auctions/:id" />
+                </Switch>
             </React.Fragment>
-
         );
     }
 }
