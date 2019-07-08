@@ -15,9 +15,9 @@ class App extends Component {
       <div className="App">
         <Layout>
           <Switch>
-            <Route path="/fake-auctions/auctions" component={Auction} />
-            <Route path="/fake-auctions" component={Home} />
-            <Redirect from="/" to="/fake-auctions" />
+            <Route path="/fake-auction/auctions" component={Auction} />
+            <Route path="/fake-auction" component={Home} />
+            <Redirect from="/" to="/fake-auction" />
           </Switch>
         </Layout>
       </div>

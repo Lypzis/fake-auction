@@ -8,7 +8,7 @@ const toolbar = props => (
     <React.Fragment>
         <h1 className="app-title">
             <figure className="logo-container">
-                <Link to="/fake-auctions">
+                <Link to="/fake-auction">
                     <svg className="logo-icon">
                         <use xlinkHref={`${sprite}#icon-hammer2`}></use>
                     </svg>
@@ -20,7 +20,7 @@ const toolbar = props => (
             <ol className="navigation__list">
                 <li className="navigation__list-item">
 
-                    <Link to="/fake-auctions/auctions" className="navigation__link">
+                    <Link to="/fake-auction/auctions" className="navigation__link">
                         <svg className="nav-icon">
                             <use xlinkHref={`${sprite}#icon-hammer2`}></use>
                         </svg>
@@ -29,7 +29,7 @@ const toolbar = props => (
                 </li>
                 <li className="navigation__list-item">
 
-                    <a href="/fake-auctions" className="navigation__link">
+                    <a href="/fake-auction" className="navigation__link">
                         <svg className="nav-icon">
                             <use xlinkHref={`${sprite}#icon-cart`}></use>
                         </svg>
@@ -38,7 +38,7 @@ const toolbar = props => (
                 </li>
                 <li className="navigation__list-item">
 
-                    <a href="/fake-auctions" className="navigation__link">
+                    <a href="/fake-auction" className="navigation__link">
                         <svg className="nav-icon">
                             <use xlinkHref={`${sprite}#icon-envelop`}></use>
                         </svg>
@@ -47,7 +47,7 @@ const toolbar = props => (
                 </li>
                 <li className="navigation__list-item">
 
-                    <a href="/fake-auctions" className="navigation__link">
+                    <a href="/fake-auction" className="navigation__link">
                         <svg className="nav-icon">
                             <use xlinkHref={`${sprite}#icon-user`}></use>
                         </svg>
