@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import sprite from '../../assets/icons/sprite.svg';
 import './toolbar.css';
@@ -7,18 +8,18 @@ const toolbar = props => (
     <React.Fragment>
         <h1 className="app-title">
             <figure className="logo-container">
-                <a href="/">
+                <Link to="/">
                     <svg className="logo-icon">
                         <use xlinkHref={`${sprite}#icon-hammer2`}></use>
                     </svg>
                     Fake Auctions
-                </a>
+                </Link>
             </figure>
         </h1>
         <nav className="navigation">
             <ol className="navigation__list">
                 <li className="navigation__list-item">
-                    <a href="/" className="navigation__link">auctions</a>
+                    <Link to="/auctions" className="navigation__link">auctions</Link>
                 </li>
                 <li className="navigation__list-item">
                     <a href="/" className="navigation__link">cart</a>
