@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fake-auction/static/css/main.7474fc07.chunk.css",
-    "main.js": "/fake-auction/static/js/main.9bddeb48.chunk.js",
-    "main.js.map": "/fake-auction/static/js/main.9bddeb48.chunk.js.map",
+    "main.js": "/fake-auction/static/js/main.2dee89ee.chunk.js",
+    "main.js.map": "/fake-auction/static/js/main.2dee89ee.chunk.js.map",
     "runtime~main.js": "/fake-auction/static/js/runtime~main.2f6ced34.js",
     "runtime~main.js.map": "/fake-auction/static/js/runtime~main.2f6ced34.js.map",
     "static/js/2.e24721c4.chunk.js": "/fake-auction/static/js/2.e24721c4.chunk.js",
     "static/js/2.e24721c4.chunk.js.map": "/fake-auction/static/js/2.e24721c4.chunk.js.map",
     "index.html": "/fake-auction/index.html",
-    "precache-manifest.e88c514a8706faafbf2fc07727a71d34.js": "/fake-auction/precache-manifest.e88c514a8706faafbf2fc07727a71d34.js",
+    "precache-manifest.5f2ba1a97b5d9ef09b66b92c49df4dd2.js": "/fake-auction/precache-manifest.5f2ba1a97b5d9ef09b66b92c49df4dd2.js",
     "service-worker.js": "/fake-auction/service-worker.js",
     "static/css/main.7474fc07.chunk.css.map": "/fake-auction/static/css/main.7474fc07.chunk.css.map",
     "static/media/bigyoshi.png": "/fake-auction/static/media/bigyoshi.736e2ba0.png",

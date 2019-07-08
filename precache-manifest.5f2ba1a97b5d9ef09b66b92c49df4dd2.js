@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03d1960a1dec46aaaa8171cd3ef150d3",
+    "revision": "a43a62a60a67769a801ccc2d0a5a8bf9",
     "url": "/fake-auction/index.html"
   },
   {
-    "revision": "a01138c42dd73badb022",
+    "revision": "4c67e95ef1658ba6ec61",
     "url": "/fake-auction/static/css/main.7474fc07.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fake-auction/static/js/2.e24721c4.chunk.js"
   },
   {
-    "revision": "a01138c42dd73badb022",
-    "url": "/fake-auction/static/js/main.9bddeb48.chunk.js"
+    "revision": "4c67e95ef1658ba6ec61",
+    "url": "/fake-auction/static/js/main.2dee89ee.chunk.js"
   },
   {
     "revision": "fe4e78eb93cd4a102eec",
