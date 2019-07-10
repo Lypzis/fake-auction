@@ -16,7 +16,7 @@ export default class AuctionBattleScene extends Scene {
         const height = parent.parentElement.clientHeight;
 
         // this will make the image fill the background;
-        const background = this.add.image(0, 0, 'sky').setOrigin(0).setDisplaySize(width, height);
+        this.add.image(0, 0, 'sky').setOrigin(0).setDisplaySize(width, height);
 
         var particles = this.add.particles('red');
 

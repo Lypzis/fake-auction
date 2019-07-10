@@ -1,0 +1,23 @@
+.modal {
+    position: absolute;
+    left: 50%;
+    z-index: 20;
+    background: #fff;
+
+    border: solid #000 .3rem;
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+    text-align: left;
+    max-width: 80rem;
+    transition: all .5s;
+
+    transform: translate(-50%);
+}
+
+.Modal--show {
+    transform: translate(-50%, 0);
+}
+
+.Modal--doNotShow {
+    transform: translate(-50%, -150%);
+}

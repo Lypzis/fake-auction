@@ -2,6 +2,7 @@
     font-family: 'Lobster', cursive;
     font-size: 3.7rem;
     padding: 1.8rem 3rem;
+    display: flex;
 }
 
 .app-title a {

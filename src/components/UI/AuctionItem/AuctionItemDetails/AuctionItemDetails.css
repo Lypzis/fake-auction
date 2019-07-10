@@ -1,0 +1,35 @@
+.details__list {
+    position: relative;
+    color: #000;
+    font-size: 3rem;
+    list-style: none;
+}
+
+.details__list-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.details__list-item--description {
+    display: block;
+}
+
+.details__list-item:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.topic {
+    position: relative;
+}
+
+.topic__content {
+    position: relative;
+}
+
+.rate {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: yellow;
+    filter: drop-shadow(0 0 .7rem #000);
+}
